@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 
 app.use(express.urlencoded({ extended: false }));
 
-// Connect to MongoDB
+// This is to Connect to MongoDB
 mongoose
   .connect(
     'mongodb://mongo:27017/docker-node-mongo',
